@@ -1,0 +1,319 @@
+
+@media (max-width:  767px) {
+	.header-top {
+	    display: none;
+	}
+
+	.header-mobile {
+	    display: block !important;
+	    background: #044670;
+	    padding: 10px 0;
+	}
+
+	.header-mobile .logo img {
+	    height: 55px;
+	}
+
+	.header a {
+	    color: #fff !important;
+	    font-size: 25px;
+	}
+	nav#menu {
+	    display: none;
+	    z-index: 1001;
+	}
+
+	nav#menu.mm-menu_opened {
+	    display: block;
+	}
+
+	body {
+	    font-size: 14px;
+	}
+
+	main {
+	    margin-top: 0 !important;
+	    transition: unset !important;
+	}
+
+	.box-about {
+	    padding: 30px 0 0 0;
+	}
+
+	.box-about .col-md-6:first-child {
+	    order: 2;
+	}
+
+	.box-about .col-md-6:last-child {
+	    order: 1;
+	}
+
+	.txt-about h1 {
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	}
+
+	.video-about {margin-top: 20px;}
+
+	.box-about iframe {
+	    height: 200px;
+	}
+
+	.title h2 {
+	    font-size: 18px;
+	}
+
+	.box-srv {
+	    padding: 25px 0;
+	}
+
+	.title {
+	    margin-bottom: 15px;
+	}
+
+	.list-srv {
+	    margin-top: 20px;
+	}
+
+	.list-srv .col-md-4 {
+	    margin-bottom: 15px;
+	}
+
+	.list-srv .col-md-4:last-child {
+	    margin-bottom: 0;
+	}
+
+	.item-srv .avarta img {
+	    height: 190px;
+	}
+
+	.item-step h4 {
+	    font-size: 15px;
+	}
+
+	.news-big .info h3 a {
+	    font-size: 16px;
+	    margin-bottom: 5px;
+	}
+
+	.news-big .btn-main {
+	    display: none;
+	}
+
+	.news-big .desc {
+	    margin-bottom: 20px;
+	}
+
+	.bar-ac {
+	    display: none;
+	}
+
+	.title-ft {
+	    font-size: 16px;
+	    margin-bottom: 10px;
+	}
+
+	.footer-top .col-md-4 {
+	    margin-bottom: 30px;
+	}
+
+	.footer-top .col-md-4:last-child {
+	    margin-bottom: 0;
+	}
+
+	.side-bar {
+	    margin-top: 30px;
+	}
+
+	.detail-top h1 {
+	    font-size: 20px;
+	    color: #044670;
+	}
+	.breadcrumbs a {
+	    font-size: 12px;
+	}
+	.item-news .avarta {
+	    flex: 0 0 45%;
+	}
+
+	.item-news .avarta img {
+	    height: 110px;
+	}
+
+	.item-news .info a {
+	    font-size: 14px;
+	    font-weight: 600;
+	}
+
+	.item-news .info .desc {
+	    -webkit-line-clamp: 3;
+	    font-size: 13px;
+	}
+
+	.item-news .info a {
+	    font-size: 14px;
+	    font-weight: 600;
+	}
+
+	.item-news .info .desc {
+	    -webkit-line-clamp: 3;
+	    font-size: 13px;
+	}
+
+	.item-news:last-child {
+	    margin-bottom: 0;
+	    padding-bottom: 0;
+	    border-bottom: 0;
+	}
+	.about {
+	    padding: 20px 0;
+	}
+
+	.other-news {
+	    padding-top: 20px;
+	    margin-top: 20px;
+	}
+
+	.info-contact .desc {
+	    padding-top: 15px;
+	}
+
+	.info-contact {
+	    padding-right: 0;
+	    margin-bottom: 30px;
+	}
+
+	.content-contact {
+	    margin-top: 20px;
+	}
+
+	.maps {
+	    padding-top: 10px;
+	}
+
+	.maps iframe {
+	    height: 170px;
+	}
+}
+
+@media (max-width: 575px) {
+	.item-news .avarta {
+	    flex: 0 0 45%;
+	}
+
+	.item-news .avarta img {
+	    height: 110px;
+	}
+
+	.item-other {
+	    display: flex;
+	}
+
+	.item-other .avarta {
+	    margin-bottom: 0;
+	    flex: 0 0 45%;
+	    margin-right: 10px;
+	}
+
+	.item-other .avarta img {
+	    height: 100px;
+	}
+
+	.other-news .row .col-md-4 {
+	    padding: 0 7px;
+	    margin-bottom: 15px;
+	}
+
+	.other-news .row .col-md-4:last-child {
+	    margin-bottom: 0;
+	}
+}
+
+@media (max-width:  767px) and (min-width: 576px) {
+	.item-srv .avarta img {
+	    height: 115px;
+	}
+
+	.list-srv .row {
+	    margin: 0 -7px;
+	}
+
+	.list-srv .col-md-4 {
+	    padding: 0 7px;
+	    margin-bottom: 0;
+	}
+	.item-news .avarta img {
+	    height: 160px;
+	}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+	.header-top {
+	    display: none;
+	}
+
+	.header-mobile {
+	    display: block !important;
+	    background: #044670;
+	    padding: 10px 0;
+	}
+
+	.header-mobile .logo img {
+	    height: 55px;
+	}
+
+	.header a {
+	    color: #fff !important;
+	    font-size: 25px;
+	}
+	nav#menu {
+	    display: none;
+	    z-index: 1001;
+	}
+
+	nav#menu.mm-menu_opened {
+	    display: block;
+	}
+
+	body {
+	    font-size: 14px;
+	}
+
+	main {
+	    margin-top: 0 !important;
+	    transition: unset !important;
+	}
+
+	.txt-about h1 {
+	    font-size: 20px;
+	}
+
+	.title h2 {
+	    font-size: 20px;
+	}
+	.side-bar {
+	    top: 15px;
+	}
+
+	.item-news .avarta {
+	    flex: 0 0 200px;
+	}
+
+	.item-news .avarta img {
+	    height: 120px;
+	}
+
+	.item-other .avarta img {
+	    height: 100px;
+	}
+}
+
+@media (max-width:  1199px) and (min-width: 1024px) {
+	.header-top ul li {
+	    padding-right: 15px;
+	}
+
+	.header-top a {
+	    font-size: 14px;
+	}
+}
